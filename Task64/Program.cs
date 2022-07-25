@@ -4,8 +4,8 @@ Console.WriteLine("введите число M: "); int m = int.Parse(Console.Re
 Console.WriteLine("введите число N: "); int n = int.Parse(Console.ReadLine());
 string PrintNumbers(int m, int n)
 {
-    if(m == n) return m.ToString();
-    return(m + ", " + PrintNumbers(m + 1, n));
+    if (m == n) return m.ToString();
+    return (m + ", " + PrintNumbers(m + 1, n));
 }
 
-Console.WriteLine(PrintNumbers(m,n));
+Console.WriteLine(PrintNumbers(m, n));
