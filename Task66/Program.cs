@@ -7,4 +7,4 @@ int SumNumbers(int m, int n)
     if (m == n) return m;
     return (m + SumNumbers(m + 1, n));
 }
-Console.WriteLine("Сумма натуральных числе ровна: " + SumNumbers(m, n));
+Console.WriteLine("Сумма натуральных числе равна: " + SumNumbers(m, n));
